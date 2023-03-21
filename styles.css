@@ -3,6 +3,8 @@
 * {
     font-family: Inter, sans-serif;
     font-size: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 /* navigation bar designing */
@@ -12,10 +14,11 @@
 }
 
 .logo {
-    height: 9vh;
-    margin-top: 3px;
-    margin-left: 40px;
-    cursor: pointer;
+    height: 63px;
+    width: 172px;
+    margin-top: 17px;
+    margin-left: 74px;
+    cursor: pointer;   
 }
 
 .navigation {
@@ -23,7 +26,7 @@
     justify-content: center;
     /* align-items: center; */
     list-style-type: none;
-    padding-left: 5rem;
+    padding-left: 4rem;
 }
 
 .dropdown-content {
@@ -59,25 +62,36 @@
     cursor: pointer;
     color: #000;
     font-weight: 600;
-    padding: 10px 17px;
+    padding: 10px 13px;
     margin-left: 19px;
-    /* on hover  */
+    margin-top: 25px;
 }
 
 .nav-itm:hover{
     background-color: #f6f6f6;
-    border-radius: 2px;
+    border-radius: 5px;
+    margin-bottom: 13px;
     
 }
 
-#sign-in {
+.sign-in {
     background-color: #00baf2;
-    position: 0;
-    padding: 8px;
-    border-radius: 8%;
+    /* border-radius: 98%; */
+    border-radius: 9%;
+    margin-left: 71px;
+    margin-top: 15px;
     text-decoration: none;
+    cursor: pointer;
+    width: 120px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
     
 }
+
+.link-signin{text-decoration: none;}
 
 
 /* span area selected */
@@ -100,7 +114,7 @@
 #DownloadApp {
     display: flex;
     margin-top: 148px;
-    margin-bottom: 100px;
+    margin-bottom: 170px;
 }
 
 .paymentApp {
@@ -154,4 +168,68 @@
     height: 14px;
     width: 16px;
     margin-left: 5px;
+}
+
+/* Recharge-Bill section*/
+.Recharge-Bill{
+    background: #00baf2;
+    color: white;
+    width: 100%;
+    padding: 65px 0px;
+
+}
+
+.bill-itms{
+    margin-left: 50px;
+
+}
+.recharge-head{
+    font-size: 36px;
+    padding: 0px 65px;
+    margin-bottom: 19px;
+    margin-left: 20px;
+}
+
+.recharge-list{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 40px;
+}
+
+.recharge-itm{
+    margin-left: 40px;
+    padding-right: 30px;
+    font-weight: 600;
+    padding: 11px;
+}
+
+.recharge-itm:hover{
+    background-color: #3fdfff;
+    border-radius: 17px;
+}
+
+.recharge-context{
+    width: 109px;
+}
+
+.Recharge-section-img{
+    width: 64px;
+    margin-bottom: 17px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+/* bills payment */
+.Booking{
+    background-color: #0f4a8a;
+    color: white;
+    width: 100%;
+    padding: 65px 0px;
+}
+
+.booking-itm-hover:hover{
+    background-color: #256bb5;
 }
