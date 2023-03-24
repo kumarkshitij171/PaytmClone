@@ -274,6 +274,7 @@
 }
 
 /* wallet section */
+
 .instruments-head {
     margin-left: 60px;
     font-size: 48px;
@@ -285,30 +286,89 @@
     margin: 0 163px;
     background-color: white;
     border-radius: 12px;
-    height: 50rem;
+    height: 30rem;
     padding: 80px 50px 80px 115px;
+    margin-bottom: 50px;
+    
 }
 
 .division{
-    width: 70%;
+    width: 44%;
+    float: left;
+}
+
+.division h3{
+    margin-top: 48px;
+    width: 390px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.division p{
+    padding: 24px 0 30px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
 }
 
 .wallet-img {
     height: 77px;
     width: auto;
-    padding-right: 12px;
 }
 
 .wallet-text {
     position: absolute;
-    padding-top: 31px;
+    padding-top: 19px;
     font-weight: 600;
+    margin-left: 17px;
+    align-items: center;
+    
 }
 
 
 .send-money{
-    height: 260px;
-    z-index: 2;
-    margin-left: 648px;
+    float: left;
+    width: 539px;
+    height: 460px;
         
+}
+
+/* learn more button */
+#btn{
+    text-decoration: none;
+    background-color: #093b71;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+#btn:hover{
+    background-color: #00baf2;
+}
+
+/* shopping */
+
+.shoping-bag{
+    height: 500px;
+    width: 433px;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #f3f3b6;
+    text-align: center;
+    padding: 20px;
 }
