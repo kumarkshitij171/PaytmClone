@@ -14,7 +14,7 @@
 }
 
 .logo {
-    height: 63px;
+    height: 55px;
     width: 172px;
     margin-top: 17px;
     margin-left: 74px;
@@ -26,7 +26,8 @@
     justify-content: center;
     /* align-items: center; */
     list-style-type: none;
-    padding-left: 4rem;
+    padding-left: 7rem;
+    width: 65%;
 }
 
 .dropdown-content {
@@ -37,7 +38,7 @@
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 15px 30px;
     text-decoration: none;
     display: block;
 }
@@ -45,7 +46,7 @@
 /* Show the dropdown menu on hover */
 .nav-itm:hover .dropdown-content {
     display: block;
-    border: 0.3px solid rgba(37, 34, 34, 0.788);
+    border: 0.1px solid rgb(224, 223, 223);
     border-radius: 7px;
     background-color: white;
     padding-bottom: 6px;
@@ -58,7 +59,7 @@
 
 
 .nav-itm {
-    font-size: 20px;
+    font-size: 17px;
     cursor: pointer;
     color: #000;
     font-weight: 600;
@@ -71,30 +72,28 @@
     background-color: #f6f6f6;
     border-radius: 5px;
     margin-bottom: 13px;
-
 }
 
 .sign-in {
     background-color: #00baf2;
     /* border-radius: 98%; */
     border-radius: 25px;
-    margin-left: 71px;
+    margin-left: 91px;
     margin-top: 15px;
+    margin-right: 15px;
     text-decoration: none;
     cursor: pointer;
     width: 120px;
     height: 46px;
     display: flex;
     align-items: center;
-    /* flex-wrap: nowrap; */
     justify-content: center;
-    /* right: 0; */
 
 }
 
 .user-sign-in {
     margin-right: 0;
-    right: -10px;
+    right: -8.7px;
     position: relative;
     margin-left: 12px;
     background-color: #0f4a8a;
@@ -103,19 +102,22 @@
     z-index: 1;
 }
 
-.user-sign-in:hover {
+.user-sign-in:hover{
     background-color: #00baf2;
 }
 
 .link-signin {
     text-decoration: none;
+    margin-left: 35px;
+    margin-right: 10px;
+
 }
 
 .text-sign-in {
     position: relative;
     left: 10px;
     color: white;
-    font-weight: 600px;
+    font-weight: 600;
 }
 
 .sign-in:hover {
@@ -143,7 +145,7 @@
 #DownloadApp {
     display: flex;
     margin-top: 148px;
-    margin-bottom: 170px;
+    margin-bottom: 137px;
 }
 
 .paymentApp {
@@ -175,9 +177,9 @@
     color: #fff;
     display: flex;
     justify-content: center;
-    padding: 8px 13px;
-    border-radius: 17px;
-    border: .2px solid black;
+    padding: 14px 20px;
+    border-radius: 50px;
+    border: 0.2px solid black;
 }
 
 #DownloadBtn:hover {
@@ -233,7 +235,7 @@
     margin-left: 40px;
     padding-right: 30px;
     font-weight: 600;
-    padding: 11px;
+    padding: 19px;
 }
 
 .recharge-itm:hover {
@@ -263,7 +265,7 @@
 }
 
 .booking-itm-hover:hover {
-    background-color: #256bb5;
+    background-color: #0d3e80;
 }
 
 
@@ -286,7 +288,7 @@
     margin: 0 163px;
     background-color: white;
     border-radius: 12px;
-    height: 30rem;
+    height: 32rem;
     padding: 80px 50px 80px 115px;
     margin-bottom: 50px;
     
@@ -307,7 +309,7 @@
 
 .division p{
     padding: 24px 0 30px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 26px;
 }
@@ -356,7 +358,49 @@
 }
 
 
+/* banking partners */
+#banks{
+    overflow: hidden;
+    margin-left: 135px;
+}
 
+.Hdfc-sbi{
+    float: left;
+    background: #fff;
+    border-radius: 16px;
+    padding: 70px 75px 0;
+    margin-right: 48px;
+    position: relative;
+    width: 410px;
+    height: 585px;
+    margin-left: 30px;
+}
+
+.Hdfc-sbi h3{
+    margin-top: 18px;
+    width: 390px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.Hdfc-sbi p{
+    padding: 24px 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.Partner-Bank-img{
+    width: 196px;
+    height: 20px;
+    margin-top: 40px;
+}
+
+.Hdfc-sbi-card{
+    width: 463px;
+    height: 296px;
+}
 
 
 
