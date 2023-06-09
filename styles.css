@@ -90,7 +90,7 @@
   border-radius: 25px;
   margin-left: 91px;
   margin-top: 15px;
-  margin-right: 15px;
+  margin-right: 0px;
   text-decoration: none;
   cursor: pointer;
   width: 120px;
@@ -118,7 +118,7 @@
 .link-signin {
   text-decoration: none;
   margin-left: 35px;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .text-sign-in {
@@ -737,14 +737,14 @@ footer {
   }
   .recharge-list {
     padding: 16px 0 0 0;
-}
+  }
   #DownloadBtn {
     width: 16rem;
     border-radius: 19px;
   }
   .bill-itms {
     margin-left: 35px;
-}
+  }
   .send-money {
     display: none;
   }
@@ -767,7 +767,6 @@ footer {
     display: none;
   }
 
-  
   .Hdfc-sbi {
     width: 86%;
     margin-bottom: 30px;
@@ -798,61 +797,68 @@ footer {
     width: 100%;
   }
   .recharge-itm {
-    margin-left: -11px;}
-    .recharge-context {
-      width: 69px;
-      padding: 2px;
+    margin-left: -11px;
+  }
+  .recharge-context {
+    width: 69px;
+    padding: 2px;
   }
   .bill-itms {
     margin-left: 16px;
-}
+  }
   .instruments-head {
     margin-left: 25px;
     font-size: 20px;
     margin-bottom: 16px;
   }
   .division {
-    width: 100%;}
+    width: 50%;
+  }
+  .div-3{
+    width: 62% !important;
+  }
   .division h3 {
     font-size: 29px;
     line-height: 32px;
     width: 16rem;
     margin: 0;
-    text-align: center;
-    
   }
   .division p {
     width: 17rem;
     font-size: 15px;
     margin: 0px;
-    text-align: center;
   }
 
-  .post-para{
+  .post-para {
     margin: 0 0 14px 0 !important;
   }
 
   .wallet-img {
-    height: 56px;}
-    .wallet-text {
-      padding-top: 12px;}
+    height: 56px;
+  }
+  .Partner-Bank-img {
+    margin-top: 6px;
+}
+  .wallet-text {
+    padding-top: 12px;
+  }
 
   .container {
     height: 21rem;
+    text-align: center;
   }
   #btn {
     margin: 20px 0 0 51px;
     padding: 7px 8px;
-}
-    #banks {
-      margin-left: 20px;
+  }
+  #banks {
+    margin-left: 20px;
   }
   .Hdfc-sbi h3 {
     width: 207px;
-}
+  }
 
-  .mob-big-cont{
-      height: 25.5rem !important;
-    
+  .mob-big-cont {
+    height: 25.5rem !important;
   }
 }
