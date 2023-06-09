@@ -14,49 +14,57 @@
 </head>
 
 <body>
+
     <header>
         <div id="navbar">
+            <div class="navMob">
+                <a class="" href="#">&#8801</a>
+            </div>
             <div>
                 <a href="index.html">
                     <img src="images/paytm_logo.png" alt="" srcset="" class="logo">
                 </a>
             </div>
-            <ul class="navigation">
-                <li class="nav-itm">Paytm for Consumer
-                    <div class="dropdown-content">
-                        <a href="#">Payments</a>
-                        <a href="#">Ticket Booking</a>
-                        <a href="#">Financial Services</a>
-                    </div>
-                </li>
-                <li class="nav-itm">Paytm For Business
-                    <div class="dropdown-content">
-                        <a href="#">Consumer Payments</a>
-                        <a href="#">Business Payments</a>
-                        <a href="#">Business Software</a>
-                        <a href="#">Financial Service</a>
-                        <a href="#">Developer</a>
-                    </div>
-                </li>
-                <li class="nav-itm">Investor Relations</li>
-                <li class="nav-itm">Company
-                    <div class="dropdown-content">
-                        <a href="#">About</a>
-                        <a href="#">CSR</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contact Us</a>
-                        <a href="#">Terms & Conditions</a>
-                        <a href="#">Sustainability</a>
-                    </div>
-                </li>
-                <li class="nav-itm">Career</li>
-            </ul>
-            <a href="building.html" class="link-signin"><button class="sign-in">
-                   <p >Sign In ‎ </p> 
-                    <!-- <img src="images/logoutImg.svg" alt="" srcset=""> -->
-                    <i class="fa-solid fa-user"></i>
-                </button></a>
+            <div class="navigation" id="navPc">
+                <ul class="navigation">
+                    <li class="nav-itm">Paytm for Consumer
+                        <div class="dropdown-content">
+                            <a href="#">Payments</a>
+                            <a href="#">Ticket Booking</a>
+                            <a href="#">Financial Services</a>
+                        </div>
+                    </li>
+                    <li class="nav-itm">Paytm For Business
+                        <div class="dropdown-content">
+                            <a href="#">Consumer Payments</a>
+                            <a href="#">Business Payments</a>
+                            <a href="#">Business Software</a>
+                            <a href="#">Financial Service</a>
+                            <a href="#">Developer</a>
+                        </div>
+                    </li>
+                    <li class="nav-itm">Investor Relations</li>
+                    <li class="nav-itm">Company
+                        <div class="dropdown-content">
+                            <a href="#">About</a>
+                            <a href="#">CSR</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Contact Us</a>
+                            <a href="#">Terms & Conditions</a>
+                            <a href="#">Sustainability</a>
+                        </div>
+                    </li>
+                    <li class="nav-itm">Career</li>
+                </ul>
+                <a href="building.html" class="link-signin "><button class="sign-in">
+                        <p class="text-sign-in">Sign In</p>
+                        <!-- <img src="images/logoutImg.svg" alt="" srcset=""> -->
+                        <i class="fa-solid fa-user user-sign-in"></i>
+                    </button></a>
+            </div>
         </div>
+
+        
     </header>
 
     <section id="Wallet-Kyc">
@@ -172,6 +180,100 @@
         </div>
     </section>
 
+
+    <section id="payment-instruments">
+        <div id="Wallet-section">
+            <h1 class="instruments-head">Paytm Payment Instruments</h1>
+            <div class="container">
+                <div class="division">
+                    <img src="images/wallet-1617861564011.png" class="wallet-img" alt="" srcset="">
+                    <span class="wallet-text">Paytm <br> Wallet</span>
+
+                    <h3>The Fastest Way to Pay In-store & Online.</h3>
+                    <p>Load up your Paytm Wallet for free and make payments <br> in a jiffy at over 21 million stores,
+                        websites and apps.</p>
+
+                    <button id="DownloadBtn" onclick="window.location='building.html';">
+                        Download Paytm App
+                        <i class="fa-brands fa-apple btn-logo"></i>
+                        <i class="fa-brands fa-google-play btn-logo"></i>
+                    </button>
+                </div>
+                <div>
+                    <img class="send-money" src="images/Send-money-using-wallet-1618577020961.webp" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="upi-money-transfer-section">
+            <div class="container">
+                <div class="division">
+                    <img src="images/upi-money-transfer-1615957674521.png" class="wallet-img" alt="" srcset="">
+                    <span class="wallet-text">UPI Money<br>Transfer</span>
+
+                    <h3>Pay anyone directly from your bank account.</h3>
+                    <p>Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm Wallet
+                        or Directly from your Bank Account. Plus, send & receive money from anyone.</p>
+
+                    <button id="DownloadBtn" onclick="window.location='building.html';">
+                        Download Paytm App
+                        <i class="fa-brands fa-apple btn-logo"></i>
+                        <i class="fa-brands fa-google-play btn-logo"></i>
+                    </button>
+                </div>
+                <div>
+                    <img class="send-money" src="images/sent-money-1626342071104.webp" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="paytm-postpaid">
+            <div class="container">
+                <div class="division">
+                    <img src="images/postpaid-1613622537678.webp" class="wallet-img" alt="" srcset="">
+                    <h3>Want it?<br>No more waiting for it.</h3>
+                    <p>With Paytm Postpaid, your wishlist doesn't have to be <br> on the waitlist. Shop for the things
+                        you want today and <br> pay for them next month.</p>
+                    <a href="building.html" id="btn">Learn More > </a>
+                </div>
+                <div>
+                    <img class="shoping-bag" src="images/shopping-1626077030984.webp" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <div id="banks">
+            <div class="Hdfc-sbi">
+
+                <img src="images/hdfc-1640242865113.png" class="Partner-Bank-img" alt="" srcset="">
+                <h3>Unlimited Cashback <br> Every time</h3>
+                <p>Paytm HDFC Bank Select Credit Card. A card <br> with assured Cashback and incredible offers.</p>
+                <img class="Hdfc-card" src="images/hdfc-card1640241561388.webp" alt="" srcset="">
+            </div>
+
+
+            <div class="Hdfc-sbi">
+                <img src="images/Sbi-1640242163727.png" class="Partner-Bank-img" alt="" srcset="">
+                <h3>India's Most <br> Sincere Credit Card</h3>
+                <p>Paytm SBI Card SELECT - With Intelligent Features & Great Rewards that Never Expire</p>
+                <img class="Sbi-card" src="images/Sbi-card-1626079147084.webp" alt="" srcset="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- <section id="Financial-Services">
+        <h1></h1>
+
+    </section> -->
+
+    <footer>
+        <p style="display: inline;">Made by Kshitij❤️</p>
+        <a href="https://github.com/kumarkshitij171"><i class="fa-brands fa-github fa-2xl git-logo"></i></a>
+
+    </footer>
 </body>
 
 </html>
