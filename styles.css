@@ -489,7 +489,7 @@ footer {
 
   .send-money {
     float: left;
-    width: 520px;
+    width: 515px;
     height: 451px;
   }
   .shoping-bag {
@@ -508,6 +508,8 @@ footer {
   .navigation {
     padding-left: 6rem;
   }
+  .link-signin {
+    margin-left: 5px;}
 }
 
 @media (max-width: 1040px) {
@@ -525,7 +527,7 @@ footer {
     width: 374px;
   }
   .App-img {
-    left: 32.6rem;
+    left: 36.8rem;
     height: 30rem;
     width: 482px;
   }
@@ -572,7 +574,7 @@ footer {
     margin-right: 0;
   }
   .App-img {
-    left: 26.3rem;
+    left: 34rem;
     height: 30rem;
     width: 433px;
   }
