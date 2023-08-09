@@ -38,6 +38,3 @@ This project involves the creation of a Paytm clone website using HTML and CSS. 
 - **Hands-On Practice:** Gain experience in HTML and CSS by replicating a real-world website.
 - **UI/UX Understanding:** Learn about user interface design and user experience principles.
 - **Responsive Design:** Implement responsive web design for various screen sizes.
-
-By creating a Paytm clone website, this project showcases your web development skills and demonstrates your ability to replicate a popular online platform's design and functionality.
-
